@@ -1,13 +1,13 @@
-package com.example.springapp;
+package com.example.busTicket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringappApplication {
+public class BusTicketApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringappApplication.class, args);
+		SpringApplication.run(BusTicketApplication.class, args);
 	}
-
+	
 }

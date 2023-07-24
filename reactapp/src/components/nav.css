@@ -1,0 +1,81 @@
+.navbar{
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: -1px;
+	background-color: #573b8a;
+	top: 0;right:0;left: 0;
+	position: fixed;
+
+  }
+ .title{
+	margin-left: 15%;
+	padding: 12px 50px;
+	color: white;
+	font-size: larger;
+	float: left;
+	font-weight: bolder;
+  }
+  li {
+	float: right;
+  }
+  li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color:#3a285a;
+  }
+
+  .open {
+	margin-left: -5%;
+	float: left;
+	padding: 14px 50px;
+	cursor: pointer;
+	background-color: #573b8a;
+	color: white;
+	border: none;
+  }
+  
+  .open:hover {
+	background-color:#3a285a;
+  }
+
+  .sidepanel {
+	height: 250px;
+	width: 0; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0;
+	left: 0;
+	background-color:#573b8a; 
+	overflow-x: hidden;
+	padding-top: 60px; 
+	transition: 0.5s;
+  }
+  
+  .sidepanel li {
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+  }
+
+  .sidepanel .closebtn {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  .about{
+	margin: 100px;
+	color: white;
+  }
+
+  

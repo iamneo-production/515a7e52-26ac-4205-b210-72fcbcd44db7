@@ -1,0 +1,37 @@
+.theatre {
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 350px;
+    color:#573b8a;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .select-text{
+    color: #573b8a;
+  }
+
+.seat {
+    display:flex;
+    margin-bottom: 10px;
+  }
+  
+  .seat input {
+    color: #573b8a;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+   
+  .select-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .left{
+    margin: 50px;
+  }
+
+  
